@@ -19,10 +19,18 @@ body{
   margin: auto;
 }
 
+@media(max-width:768px){
+  body{
+    font-size: 1.2rem;
+    
+  }
+}
+
 header{
   display: flex;
   flex: 1;
   height: 270px;
+  width: 100%;
   background: url('/images/header.png');
   background-size: cover;
   background-position: center;
@@ -59,6 +67,20 @@ section aside.info{
   justify-content: center;
 
 }
+
+@media(max-width:992px){
+  section aside.info{
+   margin: auto;
+    width: 40vh;
+    margin-top: -120px;
+   
+    display: flex;
+    justify-content: center;
+  
+  }
+
+}
+
 
 section aside.info div.profile{
   display: flex;
@@ -126,6 +148,8 @@ section aside.info div.profile div.contacts a:hover{
   
 
 section div.container{
+  display: flex;
+  flex-direction: column;
   background: #fff;
   margin-top: 20px;
   margin-left: 30px;
@@ -139,13 +163,11 @@ section div.container{
   section div.container{
     display: flex;
     flex: 1;
-    background: #fff;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 30px;
-    max-width:80vh;
+    width:90%; 
     height: 100vh; 
-    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    margin: auto; 
+    margin-top: 15px;
+   
   }
 }
 
@@ -239,6 +261,7 @@ section div.container div.box-skills div.skill div.skill-bg div.skill-level:hove
 section div.container div.techs ul{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 30px
   
 }
