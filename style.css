@@ -15,6 +15,7 @@ body{
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   max-width: 1920px;
+  height: 100%;
 }
 
 header{
