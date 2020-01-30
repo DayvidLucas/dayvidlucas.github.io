@@ -135,6 +135,7 @@ section aside.info div.profile div.contacts{
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-bottom: 20px;
   
 }
 
@@ -167,6 +168,7 @@ section div.container{
     height: 100vh; 
     margin: auto; 
     margin-top: 15px;
+    margin-left: 15px;
    
   }
 }
