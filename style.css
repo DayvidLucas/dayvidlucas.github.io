@@ -183,16 +183,7 @@ section div.container{
   }
 }
 
-@media(max-width:580px){
-  section div.container{
-    display: flex;
-    flex: 1;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-   
-  }
-}
+
 .al-info{
   margin-left: 25px;
   margin-top: 40px;
@@ -226,7 +217,16 @@ section div.container div.about span{
   font-weight: bold;
   color: #868e96;
 }
-
+@media(max-width:580px){
+  section div.container{
+    display: flex;
+    flex: 1;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+  }
+}
 section div.container div.box-skills div.skill{
   display: flex;
   flex-direction: column;
