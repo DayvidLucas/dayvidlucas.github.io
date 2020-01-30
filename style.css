@@ -294,14 +294,31 @@ section div.container div.techs ul{
   justify-content: flex-start;
   
 }
-section div.container div.techs ul li{
+
+section div.container div.techs ul li i.fab{
+  font-size: 5.7rem;
   margin-left: 25px;
   color: #868e96;
+ 
 }
 
-section div.container div.techs ul li:hover{
-  color:#093568;
+@keyframes zoom{
+  0%{
+    
+  }
+  100%{
+    font-size: 7.0rem;
+  }
+
+
 }
+section div.container div.techs ul li i.fab:hover{
+  color:#093568;
+  animation: zoom 0.5s;
+  animation-fill-mode:forwards;
+  
+}
+
 section div.container div.interests{
   display: flex;
   flex: 1;
