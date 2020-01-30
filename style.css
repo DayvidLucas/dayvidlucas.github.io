@@ -40,6 +40,7 @@ header{
 section {
   display: flex;
   flex: 1;
+  height: 100%;
   justify-items: center;
   align-content: space-between;
 }
@@ -69,25 +70,25 @@ section aside.info{
 
 }
 
-
 @media(max-width:992px){
   section aside.info{
    margin: auto;
     width: 40vh;
-    margin-top: -120px;
-   
+    margin-top: -100px;   
     display: flex;
     justify-content: center;
   
   }
 
 }
+
 @media(max-width:580px)
 {
   section aside.info{
     margin-top:-70px;
   }
 }
+
 
 section aside.info div.profile{
   display: flex;
@@ -161,34 +162,33 @@ section div.container{
   flex-direction: column;
   background: #fff;
   margin-top: 20px;
-  margin-left: 30px;
-  width:100%;
-  height: 100%; 
+  margin-left: 30px;  
   max-width: 1000px;  
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
 }
+
+
 @media(max-width:992px){
   section div.container{
     display: flex;
     flex: 1;
-    width:90%;
-    
+    width:90%;    
     margin: auto; 
     margin-top: 15px;
     margin-left: 15px;
    
   }
 }
+
 @media(max-width:580px){
   section div.container{
     display: flex;
     flex: 1;
     margin: auto;
+    margin-top: 15px;
    
   }
 }
-
-
 .al-info{
   margin-left: 25px;
   margin-top: 40px;
@@ -233,6 +233,7 @@ section div.container div.box-skills div.skill{
 @media(max-width:992px){
   section div.container div.box-skills div.skill{
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 30px;
@@ -274,10 +275,14 @@ section div.container div.box-skills div.skill div.skill-bg div.skill-level:hove
   background: #094181;  
 }
 
-
+section div.container div.techs{
+  display:flex;
+  flex:1;
+}
 section div.container div.techs ul{
-  list-style: none;
   display: flex;
+  flex: 1;
+  list-style: none;
   flex-wrap: wrap;
   margin-top: 30px;
   margin-right: 15px;
@@ -293,6 +298,8 @@ section div.container div.techs ul li:hover{
 }
 section div.container div.interests{
   display: flex;
+  flex: 1;
+  flex-wrap: wrap;
   flex-direction: column;
 
 }
