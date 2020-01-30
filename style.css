@@ -272,7 +272,8 @@ section div.container div.techs ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px
+  margin-top: 30px;
+  margin-right: 15px;
   
 }
 section div.container div.techs ul li{
@@ -283,10 +284,15 @@ section div.container div.techs ul li{
 section div.container div.techs ul li:hover{
   color:#093568;
 }
+section div.container div.interests{
+  display: flex;
+  flex-direction: column;
 
+}
 section div.container div.interests ul{
    list-style: disc;
    padding-bottom: 20px;
+   margin-top: 15px;
 }
 
 section div.container div.interests ul li{
