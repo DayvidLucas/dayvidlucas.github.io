@@ -178,6 +178,7 @@ section div.container{
     margin: auto; 
     margin-top: 15px;
     margin-left: 15px;
+    margin-bottom: 15px;
    
   }
 }
@@ -188,6 +189,7 @@ section div.container{
     flex: 1;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 15px;
    
   }
 }
