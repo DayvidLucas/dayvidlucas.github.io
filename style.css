@@ -119,6 +119,7 @@ section div.container{
   margin-left: 30px;
   width:1000px ;  
   max-width: 1000px;
+  height: 100%;
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
 }
 
