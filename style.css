@@ -47,6 +47,7 @@ section {
   
   section {
     display: flex;
+    display:1;
     flex-direction: column;
     justify-items: center;
     align-content: space-between;
@@ -68,6 +69,7 @@ section aside.info{
 
 }
 
+
 @media(max-width:992px){
   section aside.info{
    margin: auto;
@@ -80,7 +82,12 @@ section aside.info{
   }
 
 }
-
+@media(max-width:580px)
+{
+  section aside.info{
+    margin-top:-70px;
+  }
+}
 
 section aside.info div.profile{
   display: flex;
@@ -150,37 +157,37 @@ section aside.info div.profile div.contacts a:hover{
 
 section div.container{
   display: flex;
+  flex: 1;
   flex-direction: column;
   background: #fff;
   margin-top: 20px;
   margin-left: 30px;
-  width:100vh; 
-  height: 100vh; 
+  width:100%;
+  height: 100%; 
   max-width: 1000px;  
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
-}
-@media(max-width:580px){
-  section div.container{
-    display: flex;
-    flex: 1;
-    width:90%; 
-    height: 100vh; 
-    margin: auto;
-   
-  }
 }
 @media(max-width:992px){
   section div.container{
     display: flex;
     flex: 1;
-    width:90%; 
-    height: 100vh; 
+    width:90%;
+    
     margin: auto; 
     margin-top: 15px;
     margin-left: 15px;
    
   }
 }
+@media(max-width:580px){
+  section div.container{
+    display: flex;
+    flex: 1;
+    margin: auto;
+   
+  }
+}
+
 
 .al-info{
   margin-left: 25px;
