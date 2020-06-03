@@ -102,6 +102,9 @@ section aside.info div.profile img{
   max-width: 120px;
   max-height: 120px;
   border-radius: 50%;
+  box-shadow: 7px -4px 13px 4px rgba(0,0,0,.4)
+
+
 }
 section aside.info div.profile strong{
   margin-top: 15px;
@@ -337,4 +340,14 @@ section div.container div.interests ul li{
   font-weight: normal;
 }
 
+footer div.footer-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  background: rgb(148, 148, 148);
+  height: 45px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(218, 8, 8, 0.4);
 
+}
